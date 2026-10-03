@@ -1,4 +1,4 @@
-# (Re-)Imag(in)ing Price Trends: Predicting Stock Returns from Chart Images with a CNN
+Predicting Stock Returns from Chart Images with a CNN
 
 A simplified PyTorch implementation of **Jiang, Kelly & Xiu, "(Re-)Imag(in)ing Price Trends"** (*Journal of Finance*, 2023). Instead of hand-crafting technical indicators, a convolutional neural network looks at raw stock chart images and learns for itself which visual patterns predict future price movements.
 
