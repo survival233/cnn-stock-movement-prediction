@@ -96,6 +96,12 @@ cd <repo-name>
 pip install -r requirements.txt
 # put the data in data/monthly_20d/ (or set DATA_DIR), then:
 jupyter notebook stock_cnn.ipynb
+
+git clone https://github.com/<survival233>/cnn-stock-movement-prediction.git
+cd cnn-stock-movement-prediction
+pip install -r requirements.txt
+# put the data in data/monthly_20d/ (or set DATA_DIR), then:
+jupyter notebook stock_cnn.ipynb
 ```
 
 A CUDA GPU is strongly recommended. Loading all years into memory requires roughly 9 GB of RAM for the images alone.
